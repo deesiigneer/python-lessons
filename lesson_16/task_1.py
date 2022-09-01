@@ -1,2 +1,2 @@
-print('hellowewewe')
+print('hellowewejwe')
 print('New')
