@@ -1,2 +1,2 @@
 print('hello')
-print('New issue')
+print('New')
