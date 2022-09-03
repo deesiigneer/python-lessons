@@ -1,4 +1,4 @@
-import math
+from math import sqrt
 
 print('------------------Task 1 ------------------')
 count_kuppi = int(input('Введите кол-во чашек на покупку: '))
@@ -12,10 +12,10 @@ x = int(input('Введите координату x первой точки: ')
 y = int(input('Введите координату y первой точки: '))
 x2 = int(input('Введите координату x второй точки: '))
 y2 = int(input('Введите координату y второй точки: '))
-print(f'Расстояние между первой и второй точкой = {math.sqrt((x2 - x) ** 2 + (y2 - y) ** 2):.3f}')
+print(f'Расстояние между первой и второй точкой = {sqrt((x2 - x) ** 2 + (y2 - y) ** 2):.3f}')
 
 print('\n------------------Task 3 ------------------')
 count_chicken = int(input('Введите кол-во кур: '))
 count_pig = int(input('Введите кол-во свиней: '))
 count_cow = int(input('Введите кол-во коров: '))
-print(f'Количество ног всех животных = {count_chicken * 2 + count_pig * 4 + count_cow * 4}')
+print(f'Количество ног всех животных = {(count_chicken * 2) + (count_pig + count_cow) * 4}')
